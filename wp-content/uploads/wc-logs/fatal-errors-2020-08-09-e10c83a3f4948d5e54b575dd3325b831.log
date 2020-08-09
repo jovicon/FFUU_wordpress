@@ -1,0 +1,49 @@
+2020-08-09T21:21:23+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:22:16+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:22:55+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:22:56+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:22:56+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:22:57+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:22:57+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:22:59+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:23:04+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:23:16+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:23:17+00:00 CRITICAL syntax error, unexpected '?>' en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 5
+
+2020-08-09T21:25:07+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 53
+
+2020-08-09T21:25:16+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 53
+
+2020-08-09T21:25:18+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 53
+
+2020-08-09T21:25:39+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 53
+
+2020-08-09T21:27:16+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 53
+
+2020-08-09T21:27:19+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /var/www/FFUU/wp-content/themes/franciscounda/functions.php en la línea 53
+
+2020-08-09T21:47:51+00:00 CRITICAL Uncaught Error: Call to a member function to_array() on null in /var/www/FFUU/wp-content/plugins/contact-form-7/includes/rest-api.php:374
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /var/www/FFUU/wp-content/plugins/contact-form-7/includes/rest-api.php(378): array_map()
+#2 /var/www/FFUU/wp-content/plugins/contact-form-7/includes/rest-api.php(232): wpcf7_get_properties_for_api()
+#3 /var/www/FFUU/wp-includes/rest-api/class-wp-rest-server.php(1015): wpcf7_rest_update_contact_form()
+#4 /var/www/FFUU/wp-includes/rest-api/class-wp-rest-server.php(342): WP_REST_Server->dispatch()
+#5 /var/www/FFUU/wp-includes/rest-api.php(312): WP_REST_Server->serve_request()
+#6 /var/www/FFUU/wp-includes/class-wp-hook.php(287): rest_api_loaded()
+#7 /var/www/FFUU/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#8 /var/www/FFUU/wp-includes/plugin.php(544): WP_Hook->do_action()
+#9 /var/www/FFUU/wp-includes/class-wp.php(388): do_action_ref_array()
+#10 /var/www/FFUU/wp-includes/class-wp.php(739): WP->parse_request()
+#1 en /var/www/FFUU/wp-content/plugins/contact-form-7/includes/rest-api.php en la línea 374
+

@@ -79,6 +79,7 @@ $table_prefix = 'wp_';
  */
 // change for production
 define( 'WP_DEBUG', true );
+define('ALLOW_UNFILTERED_UPLOADS', true);
 
 /* That's all, stop editing! Happy publishing. */
 
