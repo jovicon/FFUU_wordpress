@@ -1,0 +1,7 @@
+[2020-08-04 02:37:27] [INFO ] INFO: initTransaction - amount: 990, sessionId: 5f28c9e7dcc15, buyOrder: _Healthcheck_, txDate: 04-08-2020, txTime: 02:37:27
+[2020-08-04 02:37:29] [INFO ] INFO: initTransaction - initResult: {"return":null,"token":"e3ed536964378cf7ed82e5a7d7045253decbdcbd79867407a46db6b13f99aba3","url":"https:\/\/webpay3gint.transbank.cl\/webpayserver\/initTransaction"}
+[2020-08-04 02:48:26] [INFO ] INFO: initTransaction - amount: 18000, sessionId: 5f28cc7a931b6, buyOrder: 309, txDate: 04-08-2020, txTime: 02:48:26
+[2020-08-04 02:48:27] [INFO ] INFO: initTransaction - initResult: {"return":null,"token":"e20158fd2ecc2b8a67b6c8987add18782d214dfa6750fe56270174714d65ab97","url":"https:\/\/webpay3gint.transbank.cl\/webpayserver\/initTransaction"}
+[2020-08-04 02:48:57] [INFO ] INFO: initTransaction - amount: 18000, sessionId: 5f28cc99cf5c7, buyOrder: 309, txDate: 04-08-2020, txTime: 02:48:57
+[2020-08-04 02:48:58] [INFO ] INFO: initTransaction - initResult: {"return":null,"token":"ee1f87a7b242b947569e7c7d866a61acc4335f929a2a7e0c3372e8a32539e6a7","url":"https:\/\/webpay3gint.transbank.cl\/webpayserver\/initTransaction"}
+[2020-08-04 02:50:10] [INFO ] INFO: getTransactionResult - tokenWs: ee1f87a7b242b947569e7c7d866a61acc4335f929a2a7e0c3372e8a32539e6a7
